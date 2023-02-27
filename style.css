@@ -111,8 +111,37 @@ img{
 }
 
 /*====================*/
-
-
+/*custom css*/
+ .header_area{
+ 	overflow: hidden;
+ } 
+ .logo{
+  width: 15%;
+  background: #f43636c7;
+  float: left;
+  overflow: hidden;
+ 
+ }
+ .menu{
+  width: 85%;
+  height:100%;
+  background:linear-gradient(88.33deg, #FF1E1E -7.64%,#FBA24F  145.94%);
+  overflow: hidden;
+  float: left;
+ }
+ .menu ul{
+  float: right;
+  padding: 35px 0px;
+}
+.menu ul li{
+  float: right;
+}
+.menu ul li a{
+  color: black;
+  padding: 0px 20px;
+  font-size: 30px;
+  display: inline-block;
+}
 
 .container{
 	max-width: 1250px;
@@ -247,6 +276,7 @@ padding-bottom: 90px;
 	padding-top: 72px;
 	padding-bottom: 129px;
 	overflow: hidden;
+	
 }
 .My_recipies_top_text {
     max-width: 760px;
@@ -257,12 +287,10 @@ padding-bottom: 90px;
 }
 }
 .My_recipies_top_text h1 {
-    font-weight: 700;
+     font-weight: 700;
+    font-size: 36px;
     line-height: 44px;
-    color: #676767;
     padding-bottom: 30px;
-    font-size: 40px; 
-   
 }
 .My_recipies_top_text p{
     font-size: 18px;
