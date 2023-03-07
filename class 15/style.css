@@ -1,0 +1,576 @@
+body{
+  padding: 0;
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+} 
+body {
+  margin: 0;
+  padding: 0;
+  top:0 !important;
+  font-size: 16px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+h3 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h4 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h5 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h6 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none !important;
+  text-decoration: none !important; 
+}
+
+input {
+  outline: none !important; 
+}
+
+button {
+  outline: none !important; 
+}
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/*====================*/
+
+/*hero_section_css*/
+.navigationbar {
+    background: black;
+    overflow: hidden;
+}
+.container {
+    width: 70%;
+    float: left;
+    background: black;
+}
+.logo_design {
+    width: 50%;
+    float: left;
+}
+.social_icon {
+    width: 50%;
+    float: left;
+}
+.logo_social_area {
+    overflow: hidden;
+}
+
+.social_icon ul li{
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 24px;
+  width: 5%;
+  float: right;
+}
+.social_icon ul li a{
+  color: #C8AA54;
+  font-size: 24px;
+
+}
+.logo_design img{
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.social_icon ul li a:hover{
+  color: tomato;
+}
+.nav_font{
+color: white;
+padding-left: 75px;
+padding-left: 72px;
+}
+.nav_font h1{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+color: #FFFFFF;
+border: 1px solid #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav_font p{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+margin-bottom: 24px;
+}
+.nav_font p small{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+color: #FFFFFF;
+margin-bottom: 8px;
+outline: hidden;
+}
+.nav_font p span{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 25px;
+color: #FFFFFF;
+margin-bottom: 8px;
+outline: hidden;
+
+}
+.image_design{
+  width: 30%;
+  float: left;
+}
+.image_design img{
+  width: 100%;
+  
+}
+.meeting{
+  background: tomato;
+}
+.meeting p{
+  overflow: hidden;
+}
+/*hero_section_css*/
+
+/*About section Css */
+.about_area{
+  padding: 100px 0px;
+  background: #FFF;
+  overflow: hidden;
+}
+.about_content p{
+ color: #000;
+ font-size: 25px;
+}
+.container_about{
+  max-width: 854px;
+  width: 100%;
+  margin: auto;
+} 
+.about_content_title h1{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+text-align: center;
+color: #00;
+padding-bottom: 32px;
+}
+.premier_image{
+  width: 50%;
+  float: left;
+}
+.premier_content{
+  width: 50%;
+  float: left;
+}
+.premier_master_area{
+  overflow: hidden;
+}
+.premier_content P{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #202020;
+padding-bottom: 12PX;
+}
+.premier_content P img{
+  padding-right: 8PX;
+}
+.premier_content a{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #202020;
+background: #C8AA54;
+margin-top: 22PX;
+border-radius: 8px;
+padding: 15px 24px;
+display: inline-block;
+}
+
+/*About section Css */
+/* About course Section */
+.course_section{
+  background:white;
+  padding: 50px 50px ;
+   overflow: hidden;
+}
+.course_container{
+    min-width: 1180px;
+    width: 100%;
+    background: #FFF;
+  
+}
+.course_image{
+  width: 50%;
+  float: left;
+}
+.course_image img{
+  width: 50%;
+  border-radius:  0px 8px 8px 0px;;
+}
+.course_content_area{
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+.course_content{
+  padding-left: 15px;
+  overflow: hidden;
+} 
+.course_content p{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #C8AA54;
+}
+.course_content h1{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+color: #202020;
+}
+.course_fee{
+  overflow: hidden;
+  margin-bottom:40px;
+  width: 100%;
+}
+.course_fee p {
+    float: left;
+    color: #000;
+    padding-top: 20px;
+    margin-right: 10px;
+}
+.buy_btn a {
+    text-align: center;
+    padding: 15px 24px;
+    background: #C8AA54;
+    border-radius: 8px;
+    overflow: hidden;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+..various{
+  color: #000 !important;
+}
+
+/* About course Section */
+/*  Start Fundamental Module Section */
+.fundamental_module{
+    max-width: 1240px;
+    width: 100%;
+    height: 100%;
+    padding: 72px 56px;
+    background: #F7E6DF;
+
+}
+.fundamental_content{
+    width: 50%;
+    float: left;
+    padding-right: 24px;
+}
+.fundamental{
+
+}
+.Fundamental h3{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #202020;
+    margin-bottom: 24px;
+}
+.Fundamental p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #54595F;
+    margin-bottom: 8px;
+}
+.premier_fundamental p{
+   font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #54595F;
+}
+.module {
+    width: 45%;
+    float: left;
+    overflow: hidden;
+    padding-left: 8px;
+}
+.module_content{
+   font-family: 'Raleway';
+    font-style: normal; 
+}
+.module_content h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #202020;
+    padding-bottom: 24px;
+}
+.module_content p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #202020;
+    padding-bottom: 16px;
+}
+.module_image p img {
+    width: 20px;
+    margin-right: 8px;
+}
+.module_image p{
+    padding-bottom: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #54595F;
+}
+.module_btn{
+    padding: 15px 24px;
+    background: #C8AA54;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 32px;
+    display: inline-block;
+}
+/* End Fundamental Module section Css */
+/* Start Contact Section Css */
+.contact {
+    background: #C8AA54;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 56%;
+}
+  .contact_area{
+padding: 64px 184px;
+text-align: center;
+}
+.contact_area h1{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+color: #FFFFFF;
+padding-bottom: 40px;
+}
+.contact_area a{
+background: #202020;
+border-radius: 8px;
+padding: 15px 24px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #C8AA54;
+}
+.contact_area a i{
+  padding-right: 5px;
+}
+/* Start Subcription Section Css */
+.subscription{
+  background: #FFF;
+}
+.subscription_content{
+padding-top: 64px;
+    padding-bottom: 72px;
+    padding-left: 182px;
+    padding-right: 182px;
+}
+.subscription_area{
+    font-family: 'Raleway';
+    font-style: normal;
+}
+.subscription_area p{
+   font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #C8AA54;
+}
+.subscription_area h1{
+  font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #202020;
+    padding-bottom: 8px;
+}
+.subscription_area p span{
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #54595F;
+}
+.sub_form{
+    margin-right: 110px;
+    margin-top: 32px;
+    padding: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+.single_input input {
+    padding: 14px 16px;
+    border: 1px solid #EFF0F2;
+    border-radius: 8px 0px 0px 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #54595F;
+    width: 80%;
+    float: left;
+}
+.single_input button {
+    padding: 16px 32px;
+    background: #C8AA54;
+    border-radius: 0px 8px 8px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    float: right;
+}
+/* Start Footer Section Css */
+.footer{
+  background: #000;
+  max-width: 1440px;
+  width: 100%;
+}
+.footer_area{
+    padding: 56px 182px;    
+    font-family: 'Raleway';
+    font-style: normal;
+    text-align: center;
+
+}
+.footer_area p{
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #C8AA54;
+padding-top: 24px;
+
+}
+.footer_area p span{
+ font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #C8AA54;
+
+}
+
+/* End Footer Section Css */
